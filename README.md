@@ -91,10 +91,4 @@ py app_nominas.py
 
 ---
 
-## Uso rápido dentro de la app
 
-1. Pulsa **📂** y selecciona la carpeta con tus nóminas en PDF.
-2. Revisa el número de pagas anuales (por defecto: **14**).
-3. Pulsa **Procesar todas las nóminas**.
-
-Los resultados se guardan en una carpeta tipo `mis_nominas_<uuid>` dentro de **Descargas**.
