@@ -1,0 +1,31 @@
+CONSOLA
+pyinstaller ^
+  --onedir ^
+  --console ^
+  --name "LectorNominasDebug" ^
+  --add-data "assets;assets" ^
+  --hidden-import=pdfminer.high_level ^
+  --hidden-import=pdfminer.layout ^
+  --hidden-import=cryptography ^
+  --hidden-import=cryptography.hazmat.primitives ^
+  --hidden-import=cryptography.hazmat.backends ^
+  app_nominas.py
+
+
+
+
+
+
+PROD
+
+pyinstaller ^
+  --onefile ^
+  --noconsole ^
+  --name "LectorNominas" ^
+  --add-data "assets;assets" ^
+  --hidden-import=pdfminer.high_level ^
+  --hidden-import=pdfminer.layout ^
+  --hidden-import=cryptography ^
+  --hidden-import=cryptography.hazmat.primitives ^
+  --hidden-import=cryptography.hazmat.backends ^
+  app_nominas.py

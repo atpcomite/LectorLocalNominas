@@ -1,0 +1,8 @@
+pandas
+unidecode
+matplotlib
+seaborn
+mplcursors
+pdfminer.six
+pdfplumber
+Pillow
